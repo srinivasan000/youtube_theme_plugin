@@ -1,8 +1,10 @@
 :root {
-    --c1: #001F3F;
-    --c2: #3A6D8C;
+    /* --c2: #3A6D8C;
     --c3: #6A9AB0;
-    --c4: #EAD8B1;
+    --c4: #EAD8B1; */
+    --c3: #FCDE70;
+    --c4: #E8B86D;
+    --c2: red;
 }
 
 #container {
@@ -18,7 +20,7 @@ ytd-mini-guide-renderer.ytd-app {
 }
 
 #guide-renderer {
-    background: var(--c1);
+    background: var(--c2);
 }
 
 tp-yt-paper-item {
