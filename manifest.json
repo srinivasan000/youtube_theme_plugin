@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "YOUTUBE THEME",
+    "version": "1.0.0",
+    "description": "This extension change youtube look",
+    "icons": {
+        "16": "img/16x16.png",
+        "48": "img/48x48.png",
+        "128": "img/128x128.png"
+    },
+    "options_page": "options_page.html",
+    "action": {
+        "default_icon": {
+            "16": "img/16x16.png"
+        },
+        "default_title": "my extension",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://youtube.com/*",
+                "https://*.youtube.com/"
+            ],
+            "css": [
+                "content.css"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

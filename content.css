@@ -1,0 +1,34 @@
+:root {
+    --c1: #001F3F;
+    --c2: #3A6D8C;
+    --c3: #6A9AB0;
+    --c4: #EAD8B1;
+}
+
+#container {
+    background: var(--c4);
+}
+
+#chips-content {
+    background: var(--c3);
+}
+
+ytd-mini-guide-renderer.ytd-app {
+    background: var(--c3);
+}
+
+#guide-renderer {
+    background: var(--c1);
+}
+
+tp-yt-paper-item {
+    background: var(--c3);
+}
+
+#columns {
+    background: var(--c3);
+}
+
+#contents {
+    background: var(--c2);
+}
